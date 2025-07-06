@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>AgroTrack -Organic Farm</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Title Icon-->
+    <link rel="icon" href="img/mine/AgroTrack_title.jpg" type="image/x-icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top p-0 w-100">
+        <div class="container">
+            <a href="index.html" class="navbar-brand d-flex align-items-center px-1 px-lg-1">
+                <img src="img/mine/AgroTrack_transparent.png" alt="brandimg" id="brandimg" width="185px" height="70px" class="ms-1 mt-2">
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto text-center">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About Us</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    <div class="nav-item">
+                        <a href="user/uloginh.jsp" class="nav-link">Shop</a>
+<!--                        <div class="dropdown-menu bg-light m-0">
+                            <a href="feature.html" class="dropdown-item">Organic Manure</a>
+                            <a href="quote.html" class="dropdown-item">Micronutrient</a>
+                            <a href="team.html" class="dropdown-item">Plant Growth Promoter</a>
+                            <a href="testimonial.html" class="dropdown-item">Bio Fertilizers</a>
+                            <a href="404.html" class="dropdown-item">Government / PSU Supply</a>
+                        </div>-->
+                    </div>
+                </div>
+                <div class="navbar-nav text-center">
+                    <!-- <a href="#" class="nav-item nav-link">
+                        <i class="fa fa-shopping-cart fa-lg d-none d-lg-block "></i>
+                        <span class="d-md-block d-lg-none">Cart</span>  Hide on large screens
+                    </a>
+                    <a href="#" class="nav-item nav-link">
+                        <i class="fa fa-heart fa-lg d-none d-lg-block"></i>
+                        <span class="d-md-block d-lg-none">WishList</span>  Hide on large screens
+                    </a> -->
+                    <a href="user/uloginh.jsp" class="nav-item nav-link">
+                        <i class="fa fa-user fa-lg d-none d-lg-block"></i>
+                        <span class="d-md-block d-lg-none">LogIn/SignUp</span>   <!-- Hide on large screens  -->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Second Hero Section Start-->
+    <div class="secondhero container-fluid vh-90 d-flex flex-column align-items-center justify-content-center">
+        <!-- Top Section -->
+        <div class="row align-items-center w-100">
+            <!-- Left Caption -->
+            <div class="col-md-4 text-center text-light px-4 mt-2">
+                <h1 class="gradient-text display-1 mb-1 animated slideInLeft">Grow Stronger</h1>
+            </div>
+    
+            <!-- Center Image -->
+            <div class="col-md-4 col-sm-4 d-flex justify-content-center text-center">
+                <img src="img/mine/vecteezy_ai-generated-beautiful-bonsai-on-aesthetic-stone-background_37148713.png" alt="Fertilizer Bag" class="img-fluid w-100 d-sm-block" style="object-fit: contain;">
+            </div>
+    
+            <!-- Right Caption -->
+            <div class="col-md-4 text-center text-light px-4">
+                <h1 class="gradient-text display-1 mb-1 animated slideInRight text-primary">Harvest Better</h1>
+            </div>
+        </div>
+    
+        <!-- Responsive Text and Button Section -->
+        <div class="text-center text-light px-4 mt-0 mb-5">
+            <p class="fs-4 mb-3 animated slideInDown text-light">Premium Fertilizers for Thriving Plants!</p>
+            <a href="user/uloginh.jsp" class="btn py-2 px-4 text-primary bg-light">Shop Smart</a>
+        </div>
+    </div>
+    <!-- Second Hero Section End-->
+    
+    <!-- Top Feature Start -->
+    <div class="container-fluid top-feature py-1 pt-lg-0 mt-5">
+        <h2 class="text-center mb-4">Our Commitment to Excellence</h2>
+        <div class="container py-5 pt-lg-0">
+            <div class="row gx-0">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                                <i class="fa fa-seedling text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4>High-Quality Fertilizers</h4>
+                                <span>Premium products for better yields.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                                <i class="fa fa-clock text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4>Real-Time Data Insights</h4>
+                                <span>Smart tools for informed decisions.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-white shadow d-flex align-items-center h-100 px-5" style="min-height: 160px;">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-light">
+                                <i class="fa fa-phone text-primary"></i>
+                            </div>
+                            <div class="ps-3">
+                                <h4>24/7 Customer Support</h4>
+                                <span>Always here to assist you.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Feature End -->
+
+
+    <div class="container-fluid py-5 bg-light" style="background-color: #D9C2A7;">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <!-- Left Description -->
+                <div class="col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="fs-3"><b>Technology-Driven Fertilizer Marketplace</b></p>
+                    <p class="fs-5 mt-3">AgroTrack makes buying premium fertilizers easy and efficient. 
+                        With a user-friendly e-commerce platform, farmers can access high-quality products,
+                         manage orders seamlessly, and optimize crop health—all through technology-driven innovation.</p>
+                </div>
+                <!-- Right Image -->
+                <div class="col-lg-5 col-md-5 wow fadeInUp" data-wow-delay="0.5s">
+                    <img src="img/mine/pexels-cottonbro-3944405.jpg" alt="image" class="img-fluid"
+                    style="border-radius: 30px; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);">
+                </div>
+            </div>
+            <div class="row g-5 align-items-center mt-5">
+                <!-- Left Image -->
+                <div class="col-lg-5 col-md-5 wow fadeInUp" data-wow-delay="0.6s">
+                    <img src="img/mine/african-man-harvesting-vegetables.jpg" alt="image" class="img-fluid"
+                    style="border-radius: 30px; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);">
+                </div>
+                <!-- Right Description -->
+                <div class="col-lg-7 col-md-7 wow fadeInUp"  data-wow-delay="0.6s">
+                    <p class="fs-3"><b>Smart Order Management with Secure Data</b></p>
+                    <p class="fs-5 mt-3">AgroTrack ensures seamless order tracking and data integrity for administrators. 
+                        With real-time insights and a secure system, admins can efficiently monitor purchases, optimize inventory,
+                         and maintain reliable records—all through a technology-driven platform built for precision and transparency.</p>
+                </div>
+            </div>
+            <div class="row g-5 align-items-center mt-5">
+                <!-- Left Description -->
+                <div class="col-lg-7 col-md-7 wow fadeInUp" data-wow-delay="0.7s">
+                    <p class="fs-3"><b>Premium Fertilizers, Trusted Quality</b></p>
+                    <p class="fs-5 mt-3">AgroTrack ensures farmers get the best fertilizers for superior crop health. 
+                        Every product is carefully sourced, tested for effectiveness, and backed by industry standards, 
+                        guaranteeing consistent quality and optimal results. With AgroTrack, farming is not just efficient—it’s 
+                        powered by excellence.</p>
+                </div>
+                <!-- Right Image -->
+                <div class="col-lg-5 col-md-5 wow fadeInUp" data-wow-delay="0.7s">
+                    <img src="img/mine/herbicide-587589_1920.jpg" alt="image" class="img-fluid"
+                    style="border-radius: 30px; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Features Start -->
+    <div class="container-fluid py-5 bg-light">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="fs-5 fw-bold text-primary">Why Choosing Us!</p>
+                    <h1 class="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
+                    <p class="mb-4">
+                        <b>Stronger crops start with smarter solutions.</b> <br>
+                        AgroTrack provides premium fertilizers, smart farming insights, and expert support
+                        to help growers enhance soil health and maximize yields.
+                         With a commitment to innovation and sustainability,
+                          we empower farmers to grow stronger and harvest better.
+                    </p>
+                    <a class="btn btn-primary py-2 px-3" href="about.html">Learn More</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
+                                        <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                            <i class="fa fa-check fa-3x text-primary"></i>
+                                        </div>
+                                        <h4 class="mb-0">100% Satisfaction</h4>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
+                                        <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                            <i class="fa fa-users fa-3x text-primary"></i>
+                                        </div>
+                                        <h4 class="mb-0">Dedicated Team</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow fadeIn" data-wow-delay="0.7s">
+                            <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
+                                <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                    <i class="fa fa-tools fa-3x text-primary"></i>
+                                </div>
+                                <h4 class="mb-0">Modern Equipment</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5" id="ourServices">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-bold text-primary">Our Services</p>
+                <h1 class="display-5 mb-5">Services That We Offer For You</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        </div>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Field demonstrations</h4>
+                            <p class="mb-4">We provide field demonstrations to help farmers experience hands-on training.</p>
+                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        </div>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Technical Guidance on Agri- Inputs</h4>
+                            <p class="mb-4">We provide technical guidance on agri-inputs to help farmers make informed decisions on fertilizers, seeds, and crop protection.</p>
+                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        </div>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Recommendations based on Field trails</h4>
+                            <p class="mb-4">We provide recommendations based on field trials to help farmers choose the best inputs for improved crop performance.</p>
+                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/service-4.jpg" alt="">
+                        </div>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-4.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Farmers Meetings</h4>
+                            <p class="mb-4">We organize farmers' meetings to foster collaboration, share insights, and discuss the latest agricultural advancements.</p>
+                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/service-5.jpg" alt="">
+                        </div>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Felicitation of Progressive Farmers</h4>
+                            <p class="mb-4">We honor progressive farmers who demonstrate innovation, sustainability, and excellence in agriculture, recognizing their contributions to modern farming.</p>
+                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/service-6.jpg" alt="">
+                        </div>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Promotion of Organic Farming in India</h4>
+                            <p class="mb-4">We actively promote organic farming in India, supporting sustainable agriculture through expert guidance, field trials, and farmer education.</p>
+                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Projects Start -->
+    <!-- <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-bold text-primary">Our Projects</p>
+                <h1 class="display-5 mb-5">Some Of Our Wonderful Projects</h1>
+            </div>
+            <div class="row wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline rounded mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Complete Projects</li>
+                        <li class="mx-2" data-filter=".second">Ongoing Projects</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Landscaping</h4>
+                            <div class="d-flex">
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Pruning plants</h4>
+                            <div class="d-flex">
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Irrigation & Drainage</h4>
+                            <div class="d-flex">
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/service-4.jpg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Garden Maintenance</h4>
+                            <div class="d-flex">
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/service-5.jpg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Green Technology</h4>
+                            <div class="d-flex">
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner rounded">
+                        <img class="img-fluid" src="img/service-6.jpg" alt="">
+                        <div class="portfolio-text">
+                            <h4 class="text-white mb-4">Urban Gardening</h4>
+                            <div class="d-flex">
+                                <a class="btn btn-lg-square rounded-circle mx-2" href="img/service-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-lg-square rounded-circle mx-2" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Projects End -->
+    
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="fs-5 fw-bold text-primary">Testimonial</p>
+                    <h1 class="display-5 mb-5">What Our Clients Say About Us!</h1>
+                    <p class="mb-4">AgroTrack has transformed the way we farm—premium fertilizers, smart insights, and seamless ordering have made all the difference!</p>
+                    <a class="btn btn-primary py-3 px-4" href="about.html">See More</a>
+                </div>
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item">
+                            <img class="img-fluid rounded mb-3" src="img/mine/pexels-sanket-sawale-62949595-16112703.jpg" alt="image">
+                            <p class="fs-5">"AgroTrack has been a game-changer for my farm. The premium fertilizers and smart farming insights have significantly improved my crop yields. The seamless ordering process and reliable support make it the best choice for any grower!" - Ramesh</p>
+                            <h4>Ramesh</h4>
+                            <span>Organic Farmer</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <img class="img-fluid rounded mb-3" src="img/mine/pexels-equalstock-20238486.jpg" alt="image" style="object-fit: cover">
+                            <p class="fs-5">"AgroTrack has simplified my fertilizer purchases while ensuring top-notch quality. The real-time insights and secure platform make managing orders effortless. My crops have never been healthier!" - Kavita</p>
+                            <h4>Kavita</h4>
+                            <span>Commercial Grower</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Our Office</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, Karnataka, INDIA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 98765 43210</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>agrotrack@mail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Services</h4>
+                    <a class="btn btn-link" href="#" style="color: whitesmoke;">Field demonstrations</a>
+                    <a class="btn btn-link" href="#" style="color: whitesmoke;">Technical Guidance</a>
+                    <a class="btn btn-link" href="#" style="color: whitesmoke;">Field trails</a>
+                    <a class="btn btn-link" href="#" style="color: whitesmoke;">Farmers Meetings</a>
+                    <a class="btn btn-link" href="#" style="color: whitesmoke;">Felicitation for Farmers</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about.html" style="color: whitesmoke;">About Us</a>
+                    <a class="btn btn-link" href="contact.html" style="color: whitesmoke;">Contact Us</a>
+                    <a class="btn btn-link" href="#ourServices" style="color: whitesmoke;">Our Services</a>
+                    <a class="btn btn-link" href="#" style="color: whitesmoke;">Terms & Condition</a>
+                    <a class="btn btn-link" href="#" style="color: whitesmoke;">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-4">Newsletter</h4>
+                    <p>Get the Latest Farming Insights & Exclusive Offers!</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-light border-light w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2 text-light">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4 bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a href="about.html">AgroTrack</a>, All Right Reserved.
+                </div>
+                <!-- <div class="col-md-6 text-center text-md-end"> -->
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a> -->
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
